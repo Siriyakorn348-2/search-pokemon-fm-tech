@@ -31,7 +31,7 @@ export default function SearchInput() {
   );
 
   return (
-    <form onSubmit={handleSearch} className="w-full max-w-2xl mx-auto mb-8">
+    <form onSubmit={handleSearch} className="w-full max-w-2xl mx-auto mb-5">
       <div className="flex gap-2">
         <input
           type="text"
@@ -43,7 +43,7 @@ export default function SearchInput() {
 
         <button
           type="submit"
-          className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium cursor-pointer"
+          className="px-5 py-3 bg-blue-900 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium cursor-pointer"
         >
           Search
         </button>
