@@ -20,7 +20,7 @@ const PokemonResult = memo(({ pokemon }: PokemonResultProps) => {
         <div className="max-w-4xl mx-auto bg-white rounded-xl shadow-lg overflow-hidden">
             <button
                 onClick={() => router.push('/')}
-                className="flex items-center gap-2 m-4 px-4 py-2 text-gray-600 hover:text-gray-900 hover:bg-gray-100 rounded-lg transition-colors cursor-pointer"
+                className="flex items-center gap-2 m-4 px-4 py-2 text-gray-600 hover:text-gray-900 hover:bg-gray-200 rounded-lg transition-colors cursor-pointer"
             >
                 <ArrowLeft className="w-5 h-5" />
                 <span>back</span>
